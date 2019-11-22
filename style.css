@@ -1,0 +1,24 @@
+#accessibility-widget {
+    position: fixed;
+    bottom: .5rem;
+    right: .5rem;
+    border-radius: 10rem;
+    background: white;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    transition: width 2s;
+}
+
+#accessibility-widget:hover> img {
+    transform: scale(1.1);
+}
+
+#a-widget-options {
+    opacity: 0;
+    transition: opacity 1s;
+    transition-delay: 2s;
+}
